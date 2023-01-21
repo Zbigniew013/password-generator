@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'pw-generator';
+  onButtonClick() {
+    console.log('Button was clicked');
+  }
 }
